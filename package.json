@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/cmbuckley/slack-slash-fastify/issues"
   },
-  "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme"
+  "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme",
+  "dependencies": {
+    "@slack/webhook": "^5.0.2",
+    "fastify": "^2.10.0",
+    "qs": "^6.9.0"
+  }
 }
