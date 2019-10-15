@@ -1,0 +1,21 @@
+{
+  "name": "slack-slash-fastify",
+  "version": "0.0.1",
+  "description": "A simple Slack Slash Command handler using Fastify",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cmbuckley/slack-slash-fastify.git"
+  },
+  "keywords": [
+    "slack",
+    "slack-slash",
+    "fastify"
+  ],
+  "author": "Chris Buckley <chris@cmbuckley.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmbuckley/slack-slash-fastify/issues"
+  },
+  "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme"
+}
