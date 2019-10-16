@@ -1,6 +1,6 @@
 # slack-slash-fastify
 
-A simple Slack Slash Command handler using Fastify.
+A simple Slack Slash Command handler using [Fastify](https://www.fastify.io).
 
 This package is intended to be used to create slash commands in a project that has no other need for a Web server.
 
@@ -33,5 +33,6 @@ slash.on('slash:foo', function (args, reply) {
 ### Class: SlashEmitter
 
 * `options` <Object>
-    * `secret`: <string> Signing secret used to [verify requests from Slack](https://api.slack.com/docs/verifying-requests-from-slack)
+    * `secret`: <string> Signing secret used to [verify requests from Slack](https://api.slack.com/docs/verifying-requests-from-slack).
     * `allowImmediate`: <boolean>|<number> Allow immediate response to Slack requests. Defaults to `false`, meaning the reply is sent separately using a Webhook. If `true`, the reply will be sent inline if the subscriber responds within the default 2 seconds. If a number is passed, it alters this timeout in milliseconds (to a maximum of 2000).
+    * `port`: <number> The port for Fastify to use for the server.
