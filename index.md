@@ -1,6 +1,7 @@
 ---
 layout: showcase
 title: slack-slash-fastify
+npm: slack-slash-fastify
 ---
 
 A simple Slack Slash Command handler using [Fastify](https://www.fastify.io).
