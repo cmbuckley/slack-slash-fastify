@@ -2,7 +2,7 @@ title: Chris Buckley
 description: A simple Slack Slash Command handler using Fastify.
 
 url: https://cmbuckley.co.uk
-baseurl: /slack-slash-trains
+baseurl: /slack-slash-fastify
 
 remote_theme: "cmbuckley/cmbuckley.github.io"
 
