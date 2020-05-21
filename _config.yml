@@ -4,7 +4,12 @@ description: A simple Slack Slash Command handler using Fastify.
 url: https://cmbuckley.co.uk
 baseurl: /slack-slash-fastify
 
+repository: cmbuckley/slack-slash-fastify
 remote_theme: "cmbuckley/cmbuckley.github.io"
+
+plugins:
+  - jekyll-github-metadata
+  - jekyll-remote-theme
 
 markdown: kramdown
 highlighter: rouge
