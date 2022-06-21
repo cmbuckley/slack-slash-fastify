@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme",
   "dependencies": {
     "@slack/webhook": "^5.0.2",
-    "fastify": "^2.10.0",
+    "fastify": "^4.1.0",
     "qs": "^6.9.0"
   }
 }
