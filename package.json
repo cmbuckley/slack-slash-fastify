@@ -18,6 +18,11 @@
     "url": "https://github.com/cmbuckley/slack-slash-fastify/issues"
   },
   "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme",
+  "scripts": {
+    "version": "git commit -am \"Release $npm_package_version\" && git checkout HEAD^{}",
+    "postversion": "npm publish --access=public && git checkout -",
+    "postpublish": "git push --tags"
+  },
   "dependencies": {
     "@slack/webhook": "^6.1.0",
     "fastify": "^4.3.0",
