@@ -23,6 +23,9 @@
     "postversion": "npm publish --access=public && git checkout -",
     "postpublish": "git push --tags"
   },
+  "engines": {
+    "node": ">= 18"
+  },
   "dependencies": {
     "@slack/webhook": "^7.0.0",
     "fastify": "^4.3.0",
