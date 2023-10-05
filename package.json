@@ -1,6 +1,6 @@
 {
   "name": "slack-slash-fastify",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "A simple Slack Slash Command handler using Fastify",
   "main": "lib/index.js",
   "repository": {
