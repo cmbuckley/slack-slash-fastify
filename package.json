@@ -19,8 +19,7 @@
   },
   "homepage": "https://github.com/cmbuckley/slack-slash-fastify#readme",
   "scripts": {
-    "version": "git commit -am \"Release $npm_package_version\" && git checkout HEAD^{}",
-    "postversion": "npm publish --access=public && git checkout -",
+    "postversion": "npm publish --access=public",
     "postpublish": "git push --tags"
   },
   "engines": {
