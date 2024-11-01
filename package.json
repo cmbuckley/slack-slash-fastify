@@ -24,7 +24,7 @@
     "postpublish": "git push --tags"
   },
   "engines": {
-    "node": ">= 18"
+    "node": ">= 20"
   },
   "dependencies": {
     "@slack/webhook": "^7.0.0",
