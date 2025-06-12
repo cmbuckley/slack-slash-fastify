@@ -1,0 +1,20 @@
+name: Refresh GitHub Pages
+
+on:
+  release:
+    types:
+      - published
+      - deleted
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api repos/${{ github.repository }}/pages/builds -X POST
